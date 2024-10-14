@@ -37,10 +37,6 @@ object Decompile {
             securityFlags.remove(JadxSecurityFlag.SECURE_XML_PARSER)
             jadxArgs.security = JadxSecurity(securityFlags)
 
-            // disable jadx code comments
-            // TODO: inner class processing error
-            jadxArgs.commentsLevel = CommentsLevel.NONE
-
             // (Optional) Class set tree loading can take too much time,
             // but disabling it can reduce result code quality
             jadxArgs.isLoadJadxClsSetFile = false
