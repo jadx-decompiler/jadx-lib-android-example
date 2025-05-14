@@ -34,7 +34,7 @@ android {
 }
 
 dependencies {
-    val jadxVersion = "1.5.1-SNAPSHOT"
+    val jadxVersion = "1.5.1"
     val isJadxSnapshot = jadxVersion.endsWith("-SNAPSHOT")
 
     // use compile only scope to exclude jadx-core and its dependencies from result jar
