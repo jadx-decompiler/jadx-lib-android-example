@@ -8,6 +8,7 @@ on:
   # run weekly to verify latest jadx snapshot version
   schedule:
     - cron: "22 2 * * 2"
+  workflow_dispatch:
 
 jobs:
   tests:
